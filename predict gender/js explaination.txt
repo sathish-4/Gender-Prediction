@@ -1,0 +1,7 @@
+In the provided JavaScript code, the API being used is "genderize.io". This API predicts the gender of a person based on their first name. The base URL for this API is "https://api.genderize.io".
+
+The endpoint being used in the code is constructed by appending the "name" parameter to the base URL. For example, if the name to be queried is "John", the final URL would be "https://api.genderize.io?name=John".
+
+The API endpoint constructed in the code sends a GET request to the genderize.io API with the name as a parameter, and in return, it receives a JSON response containing the predicted gender and probability.
+
+The code then processes the response and displays the predicted gender and its probability on the web page. If the gender is determined to be "female", it sets the background color of the displayed result to pink, and if it's "male", it sets it to blue. It also displays an icon next to the gender prediction.
